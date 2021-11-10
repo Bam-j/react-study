@@ -24,3 +24,6 @@ yarn-error.log*
 
 #webStorm
 /.idea
+
+#create react-app
+README.md
