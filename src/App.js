@@ -1,10 +1,10 @@
 import React from 'react';
-import StatePracFunc from './codes/StatePracFunc';
+import ComponentLifeCycle from './codes/ComponentLifeCycle';
 
 const App = () => {
-  return (
-      <StatePracFunc />
-  );
+    return (
+        <ComponentLifeCycle/>
+    );
 };
 
 export default App;
