@@ -1,9 +1,9 @@
 import React from 'react';
-import ComponentLifeCycle from './codes/ComponentLifeCycle';
+import ColorChanger from './codes/color-changer.js';
 
 const App = () => {
     return (
-        <ComponentLifeCycle/>
+        <ColorChanger />
     );
 };
 
