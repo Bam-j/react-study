@@ -1,8 +1,16 @@
-import React, {Fragment, useState} from 'react';
+import React, {Fragment, useEffect, useState} from 'react';
 
 const ColorChanger = () => {
     const [colorText, setColorText] = useState('검정');
     const [color, setColor] = useState('black');
+
+    useEffect(() => {
+        alert('렌더링 완료');
+
+        return ()=>{
+            alert('clean-up 함수 호출');
+        };
+    }, [colorText]);
 
     return (
         <Fragment>
