@@ -1,9 +1,9 @@
 import React from 'react';
-import ColorChanger from './codes/color-changer.js';
+import AddInputNum from './codes/AddInputNum.js';
 
 const App = () => {
     return (
-        <ColorChanger />
+        <AddInputNum />
     );
 };
 
