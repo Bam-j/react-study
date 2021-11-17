@@ -1,4 +1,4 @@
-import React, {Fragment, useState, useMemo, useCallback} from 'react';
+import React, {Fragment, useState, useMemo, useCallback, useRef} from 'react';
 
 const getTotal = numbers => {
     let total = 0;
@@ -15,6 +15,7 @@ const getTotal = numbers => {
 const AddInputNum = () => {
     const [numbers, setNumbers] = useState([]);
     const [input, setInput] = useState('');
+    const inputEl = useRef(null);
 
     /*
     useCallback 사용 이전 코드
@@ -39,13 +40,14 @@ const AddInputNum = () => {
 
         setNumbers(nextNumber);
         setInput('');
+        inputEl.current.focus();
     }, [input, numbers]);
 
     const total = useMemo(() => getTotal(numbers), [numbers]);
 
     return (
         <Fragment>
-            <input value={input} onChange={onChange}/>
+            <input ref={inputEl} value={input} onChange={onChange}/>
             <button onClick={onInsert}>입력</button>
             <div>
                 <span>총합: </span>{total}
