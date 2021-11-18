@@ -1,9 +1,10 @@
 import React from 'react';
-import AddInputNum from './codes/AddInputNum.js';
+import './App.css';
+import ComponentCSS from './codes/ComponentCSS';
 
 const App = () => {
     return (
-        <AddInputNum />
+        <ComponentCSS/>
     );
 };
 

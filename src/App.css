@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.ComponentCSS-wrapper {
+  background-color: #000;
+}
+
+.ComponentCSS-text {
+  color: #fff;
+}
