@@ -7,7 +7,7 @@ const ColorChanger = () => {
     useEffect(() => {
         alert('렌더링 완료');
 
-        return ()=>{
+        return () => {
             alert('clean-up 함수 호출');
         };
     }, [colorText]);
