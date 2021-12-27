@@ -1,11 +1,9 @@
 import React from 'react';
-import {MdAccessibilityNew} from 'react-icons/md';
+import Counter2 from './codes/Counter2';
 
 const App = () => {
     return (
-        <button>
-            <MdAccessibilityNew />
-        </button>
+        <Counter2/>
     );
 };
 
