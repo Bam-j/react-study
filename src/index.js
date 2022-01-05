@@ -1,19 +1,17 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import {BrowserRouter} from 'react-router-dom';
+import ReactDom from 'react-dom';
+import {createStore} from 'redux';
+import {Provider} from 'react-redux';
+import {composeWithDevTools} from 'redux-devtools-extension';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import rootReducer from './codes/redux-tutorial/ducks-modules';
 
-document.addEventListener('DOMContentLoaded', function () {
-    ReactDOM.render(
-        <React.StrictMode>
-            <BrowserRouter>
-                <App/>
-            </BrowserRouter>
-        </React.StrictMode>,
-        document.getElementById('root')
-    );
+const store = createStore(rootReducer, composeWithDevTools());
 
-});
-reportWebVitals();
+ReactDom.render(
+    <Provider store={store}>
+        <App/>,
+    </Provider>,
+document.getElementById('root'),
+);

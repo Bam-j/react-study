@@ -1,9 +1,14 @@
 import React from 'react';
-import Counter2 from './codes/Counter2';
+import ReduxCounterContainer from './codes/redux-tutorial/containers/ReduxCounterContainer';
+import TodosContainer from './codes/redux-tutorial/containers/TodosContainer';
 
 const App = () => {
     return (
-        <Counter2/>
+        <div>
+            <ReduxCounterContainer/>
+            <hr/>
+            <TodosContainer/>
+        </div>
     );
 };
 
