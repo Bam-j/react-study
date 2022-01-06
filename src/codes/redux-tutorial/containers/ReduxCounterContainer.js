@@ -1,17 +1,15 @@
-import React from 'react';
-import {connect} from 'react-redux';
+import React, {useCallback} from 'react';
+import {useDispatch, useSelector} from 'react-redux';
 import ReduxCounter from '../ReduxCounter';
-import {decrease, increase} from '../ducks-modules/reduxCounter';
-import {bindActionCreators} from 'redux';
+import {increase, decrease} from '../ducks-modules/reduxCounter';
 
-const ReduxCounterContainer = ({number, increase, decrease}) => {
-    return <ReduxCounter number={number} onIncrease={increase} onDecrease={decrease}/>;
+const ReduxCounterContainer = () => {
+    const number = useSelector(state => state.reduxCounter.number);
+    const dispatch = useDispatch();
+    const onIncrease = useCallback(()=> dispatch(increase()), [dispatch]);
+    const onDecrease = useCallback(()=> dispatch(decrease()), [dispatch]);
+
+    return <ReduxCounter number={number} onIncrease={onIncrease()} onDecrease={onDecrease()}/>;
 };
 
-export default connect(
-    state => ({number: state.reduxCounter.number}),
-    {
-        increase,
-        decrease,
-    },
-)(ReduxCounterContainer);
+export default ReduxCounterContainer;
