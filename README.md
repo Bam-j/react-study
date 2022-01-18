@@ -43,7 +43,8 @@
 ## 6. Redux, react-redux
 6-1. [리덕스 라이브러리 소개](https://bamtory29.tistory.com/entry/Redux-%EB%A6%AC%EB%8D%95%EC%8A%A4?category=1013350) <br/>
 6-2. [리덕스와 react-redux 사용](https://bamtory29.tistory.com/entry/ReactRedux-%EB%A6%AC%EC%95%A1%ED%8A%B8-%EB%A6%AC%EB%8D%95%EC%8A%A4-%EC%82%AC%EC%9A%A9%ED%95%B4%EB%B3%B4%EA%B8%B0?category=1013350) <br/>
-6-3. [리덕스 활용1](https://bamtory29.tistory.com/entry/ReactRedux-%EB%A6%AC%EB%8D%95%EC%8A%A4-%ED%99%9C%EC%9A%A9?category=1013350) <br/>
+6-3. [리덕스 활용](https://bamtory29.tistory.com/entry/ReactRedux-%EB%A6%AC%EB%8D%95%EC%8A%A4-%ED%99%9C%EC%9A%A9?category=1013350) <br/>
+6-4. [리덕스 미들웨어 소개](https://bamtory29.tistory.com/entry/ReactRedux-%EB%A6%AC%EB%8D%95%EC%8A%A4-%EB%AF%B8%EB%93%A4%EC%9B%A8%EC%96%B4?category=1013350) <br/>
 
 (계속 추가중 입니다)
 

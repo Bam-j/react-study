@@ -1,15 +1,8 @@
 import React from 'react';
-import ReduxCounterContainer from './codes/redux-tutorial/containers/ReduxCounterContainer';
-import TodosContainer from './codes/redux-tutorial/containers/TodosContainer';
+import ColorChangerContainer from './codes/middlewarePractice/container/ColorChangerContainer';
 
 const App = () => {
-    return (
-        <div>
-            <ReduxCounterContainer/>
-            <hr/>
-            <TodosContainer/>
-        </div>
-    );
+    return <ColorChangerContainer/>
 };
 
 export default App;
