@@ -2,6 +2,7 @@ import React from 'react';
 import {connect} from 'react-redux';
 import {setColorBlack, setColorBlue, setColorRed} from '../modules/colorChangerMW';
 import ColorChangerMW from '../components/ColorChangerMW';
+import {bindActionCreators} from 'redux';
 
 const ColorChangerContainer = ({text, color, setColorBlack, setColorBlue, setColorRed}) => {
     return (
@@ -11,13 +12,16 @@ const ColorChangerContainer = ({text, color, setColorBlack, setColorBlue, setCol
 };
 
 export default connect(
-    ({text, color}) => ({
-        text: text,
-        color: color,
+    state => ({
+        text: state.colorChangerMW.text,
+        color: state.colorChangerMW.color,
     }),
-    dispatch => ({
-        setColorBlack: () => dispatch(setColorBlack()),
-        setColorBlue: () => dispatch(setColorBlue()),
-        setColorRed: () => dispatch(setColorRed()),
-    })
+    dispatch => bindActionCreators(
+        {
+            setColorBlack,
+            setColorBlue,
+            setColorRed,
+        },
+        dispatch
+    ),
 )(ColorChangerContainer);

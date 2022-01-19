@@ -15,12 +15,13 @@ const initialState = {
 
 const colorChangerMW = handleActions(
     {
-        [SET_COLOR_BLACK]: (text, color) => ({
-            text: 'bb',
+        [SET_COLOR_BLACK]: (state, action) => ({
+            text: '검정',
             color: '#000',
         }),
         [SET_COLOR_BLUE]: (state, action) => ({
-            text: state.text = action.payload
+            text: action.payload.text = '파랑',
+            color: '#00f',
         }),
         [SET_COLOR_RED]: (state, action) => ({
             text: '빨강',
