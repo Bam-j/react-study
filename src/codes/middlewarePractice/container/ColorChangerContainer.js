@@ -1,13 +1,13 @@
 import React from 'react';
 import {connect} from 'react-redux';
-import {setColorBlack, setColorBlue, setColorRed} from '../modules/colorChangerMW';
+import {setColorBlackAsync, setColorBlueAsync, setColorRedAsync} from '../modules/colorChangerMW';
 import ColorChangerMW from '../components/ColorChangerMW';
 import {bindActionCreators} from 'redux';
 
-const ColorChangerContainer = ({text, color, setColorBlack, setColorBlue, setColorRed}) => {
+const ColorChangerContainer = ({text, color, setColorBlackAsync, setColorBlueAsync, setColorRedAsync}) => {
     return (
         <ColorChangerMW text={text} color={color}
-                        onSetColorBlack={setColorBlack} onSetColorBlue={setColorBlue} onSetColorRed={setColorRed}/>
+                        onSetColorBlack={setColorBlackAsync} onSetColorBlue={setColorBlueAsync} onSetColorRed={setColorRedAsync}/>
     );
 };
 
@@ -18,9 +18,9 @@ export default connect(
     }),
     dispatch => bindActionCreators(
         {
-            setColorBlack,
-            setColorBlue,
-            setColorRed,
+            setColorBlackAsync,
+            setColorBlueAsync,
+            setColorRedAsync,
         },
         dispatch
     ),

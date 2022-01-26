@@ -1,4 +1,4 @@
-# react-study
+# React.js
 
 리액트를 공부하며 적어나간 글과 코드들 입니다. <br />
 블로그의 설명들은 공식문서, 다양한 글, 책들로 공부했던 내용을 작성하고 있습니다. <br />
@@ -46,8 +46,7 @@
 6-3. [리덕스 활용](https://bamtory29.tistory.com/entry/ReactRedux-%EB%A6%AC%EB%8D%95%EC%8A%A4-%ED%99%9C%EC%9A%A9?category=1013350) <br/>
 6-4. [리덕스 미들웨어 소개](https://bamtory29.tistory.com/entry/ReactRedux-%EB%A6%AC%EB%8D%95%EC%8A%A4-%EB%AF%B8%EB%93%A4%EC%9B%A8%EC%96%B4?category=1013350) <br/>
 6-5. [redux-logger](https://bamtory29.tistory.com/entry/ReactRedux-redux-logger) <br/>
-
-(계속 추가중 입니다)
+6-6. [redux-thunk](https://bamtory29.tistory.com/entry/ReactRedux-redux-thunk) <br/>
 
 ### 번외. 클론 코딩 및 프로젝트들
 1. [ToDo-List](https://bamtory29.tistory.com/category/Project/%5B%ED%81%B4%EB%A1%A0%20%EC%BD%94%EB%94%A9%5D%20TODO%20LIST) <br/>

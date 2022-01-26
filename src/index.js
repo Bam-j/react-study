@@ -6,9 +6,10 @@ import './index.css';
 import App from './App';
 import rootReducer from './codes/middlewarePractice/modules/index';
 import {createLogger} from 'redux-logger';
+import ReduxThunk from 'redux-thunk';
 
 const logger = createLogger();
-const store = createStore(rootReducer, applyMiddleware(logger));
+const store = createStore(rootReducer, applyMiddleware(logger, ReduxThunk));
 
 ReactDom.render(
     <Provider store={store}>
