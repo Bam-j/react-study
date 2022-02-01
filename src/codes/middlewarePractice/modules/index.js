@@ -1,6 +1,9 @@
 import {combineReducers} from 'redux';
-import colorChangerMW from './colorChangerMW';
+import sample from './sample';
 
-const rootReducer = combineReducers({colorChangerMW});
+const rootReducer = combineReducers({
+    sample,
+});
 
 export default rootReducer;
+

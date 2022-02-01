@@ -1,8 +1,12 @@
-import React from 'react';
-import ColorChangerContainer from './codes/middlewarePractice/container/ColorChangerContainer';
+import './App.css';
+import SampleContainer from './containers/SampleContainers';
 
-const App = () => {
-    return <ColorChangerContainer/>
-};
+function App() {
+    return (
+        <div>
+            <SampleContainer/>
+        </div>
+    );
+}
 
 export default App;
