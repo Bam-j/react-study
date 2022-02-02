@@ -93,3 +93,5 @@ const sample = handleActions({
         })
     }, initialState
 );
+
+export default sample;

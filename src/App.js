@@ -1,5 +1,5 @@
 import './App.css';
-import SampleContainer from './containers/SampleContainers';
+import SampleContainer from './codes/middlewarePractice/container/SampleContainers';
 
 function App() {
     return (
