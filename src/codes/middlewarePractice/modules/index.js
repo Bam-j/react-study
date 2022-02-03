@@ -1,9 +1,14 @@
 import {combineReducers} from 'redux';
-import sample from './sample';
+import {all} from 'redux-saga/effects';
+import colorChangerMW, {colorChangerSaga} from './colorChangerMW';
 
 const rootReducer = combineReducers({
-    sample,
+    colorChangerMW,
 });
+
+export function* rootSaga() {
+    yield all([colorChangerSaga()]);
+}
 
 export default rootReducer;
 

@@ -47,6 +47,7 @@
 6-4. [리덕스 미들웨어 소개](https://bamtory29.tistory.com/entry/ReactRedux-%EB%A6%AC%EB%8D%95%EC%8A%A4-%EB%AF%B8%EB%93%A4%EC%9B%A8%EC%96%B4?category=1013350) <br/>
 6-5. [redux-logger](https://bamtory29.tistory.com/entry/ReactRedux-redux-logger) <br/>
 6-6. [redux-thunk](https://bamtory29.tistory.com/entry/ReactRedux-redux-thunk) <br/>
+6-7. [redux-saga](https://bamtory29.tistory.com/entry/ReactRedux-redux-saga) <br/>
 
 ### 번외. 클론 코딩 및 프로젝트들
 1. [ToDo-List](https://bamtory29.tistory.com/category/Project/%5B%ED%81%B4%EB%A1%A0%20%EC%BD%94%EB%94%A9%5D%20TODO%20LIST) <br/>

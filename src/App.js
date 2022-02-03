@@ -1,10 +1,10 @@
 import './App.css';
-import SampleContainer from './codes/middlewarePractice/container/SampleContainers';
+import ColorChangerContainer from './codes/middlewarePractice/container/ColorChangerContainer';
 
 function App() {
     return (
         <div>
-            <SampleContainer/>
+            <ColorChangerContainer/>
         </div>
     );
 }
