@@ -49,6 +49,9 @@
 6-6. [redux-thunk](https://bamtory29.tistory.com/entry/ReactRedux-redux-thunk) <br/>
 6-7. [redux-saga](https://bamtory29.tistory.com/entry/ReactRedux-redux-saga) <br/>
 
+## 7. 리액트 활용
+7-1. [코드 스플리팅](https://bamtory29.tistory.com/entry/React-%EB%A6%AC%EC%95%A1%ED%8A%B8%EC%97%90%EC%84%9C-%EC%BD%94%EB%93%9C-%EC%8A%A4%ED%94%8C%EB%A6%AC%ED%8C%85) <br/>
+
 ### 번외. 클론 코딩 및 프로젝트들
 1. [ToDo-List](https://bamtory29.tistory.com/category/Project/%5B%ED%81%B4%EB%A1%A0%20%EC%BD%94%EB%94%A9%5D%20TODO%20LIST) <br/>
 2. [News-Viewer](https://bamtory29.tistory.com/category/Project/%5B%ED%81%B4%EB%A1%A0%20%EC%BD%94%EB%94%A9%5D%20%EB%89%B4%EC%8A%A4%20%EB%B7%B0%EC%96%B4) <br/>
