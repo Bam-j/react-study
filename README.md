@@ -57,4 +57,4 @@
 2. [News-Viewer](https://bamtory29.tistory.com/category/Project/%5B%ED%81%B4%EB%A1%A0%20%EC%BD%94%EB%94%A9%5D%20%EB%89%B4%EC%8A%A4%20%EB%B7%B0%EC%96%B4) <br/>
 
 --------------------------------------------
-https://bamtory29.tistory.com/category/Programming/React
+- [React 카테고리 이동](https://velog.io/@bami/series/React)
