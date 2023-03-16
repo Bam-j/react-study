@@ -53,7 +53,8 @@
 ## 7. 리액트 활용
 7-1. [코드 스플리팅](https://velog.io/@bami/React-%EB%A6%AC%EC%95%A1%ED%8A%B8-%EC%BD%94%EB%93%9C-%EC%8A%A4%ED%94%8C%EB%A6%AC%ED%8C%85) <br/>
 7-2. [React Color 라이브러리](https://velog.io/@bami/React-Color)<br/>
-7-3. [GitHub Pages에 리액트 페이지 배포](https://velog.io/@bami/React-GitHub-Pages%EC%97%90-%EB%B0%B0%ED%8F%AC%ED%95%98%EA%B8%B0) <hr/>
+7-3. [GitHub Pages에 리액트 페이지 배포](https://velog.io/@bami/React-GitHub-Pages%EC%97%90-%EB%B0%B0%ED%8F%AC%ED%95%98%EA%B8%B0) <br/>
+7-4. [Storybook](https://velog.io/@bami/React-Storybook-mp1dzgtu) <br/>
 
 ### 번외. 클론 코딩 및 프로젝트들
 1. [ToDo-List](https://bamtory29.tistory.com/category/Project/%5B%ED%81%B4%EB%A1%A0%20%EC%BD%94%EB%94%A9%5D%20TODO%20LIST) <br/>
