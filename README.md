@@ -36,10 +36,11 @@
 4-1. [컴포넌트에 CSS 적용하기](https://velog.io/@bami/React-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%EC%97%90-CSS-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0) <br/>
 4-2. [styled-components](https://velog.io/@bami/React-styled-components) <br/>
 
-## 5. 조건부 렌더링과 컴포넌트 반복, 리액트 라우터
+## 5. 리액트 응용
 5-1. [조건부 렌더링](https://velog.io/@bami/React-%EC%A1%B0%EA%B1%B4%EB%B6%80-%EB%A0%8C%EB%8D%94%EB%A7%81) <br/>
 5-2. [컴포넌트 반복](https://velog.io/@bami/React-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8-%EB%B0%98%EB%B3%B5) <br/>
 5-3. [리액트 라우터](https://velog.io/@bami/React-%EB%A6%AC%EC%95%A1%ED%8A%B8-%EB%9D%BC%EC%9A%B0%ED%84%B0) <br/>
+5-4. [Context API](https://velog.io/@bami/React-ContextAPI) <br/>
 
 ## 6. Redux, react-redux
 6-1. [리덕스 라이브러리 소개](https://velog.io/@bami/Redux-%EB%A6%AC%EB%8D%95%EC%8A%A4) <br/>
