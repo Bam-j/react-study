@@ -1,10 +1,18 @@
 import './App.css';
-import ColorChangerContainer from './codes/middlewarePractice/container/ColorChangerContainer';
+import {useState} from 'react';
+import ColorPicker from './codes/ColorPicker';
 
 function App() {
+  const [isOpen, setIsOpen] = useState(false);
+  const onClick = () => {
+    setIsOpen(!isOpen);
+  };
+
     return (
         <div>
-            <ColorChangerContainer/>
+          <button onClick={onClick}>열기</button>
+
+          {isOpen && <ColorPicker/>}
         </div>
     );
 }
