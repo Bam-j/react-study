@@ -1,10 +1,11 @@
+import React from 'react';
 import './App.css';
-import CountUp from './codes/CountUp';
+import CustomHook from './codes/CustomHook';
 
 function App() {
     return (
       <>
-        <CountUp/>
+        <CustomHook/>
       </>
     );
 }
