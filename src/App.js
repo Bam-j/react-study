@@ -1,11 +1,17 @@
-import React from 'react';
 import './App.css';
-import CustomHook from './codes/CustomHook';
+import { Button } from '@mui/material';
 
 function App() {
     return (
       <>
-        <CustomHook/>
+        <Button
+          variant="contained"
+          sx={{
+            backgroundColor: 'violet',
+          }}
+        >
+          버튼입니다
+        </Button>
       </>
     );
 }

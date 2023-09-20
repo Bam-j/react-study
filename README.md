@@ -59,6 +59,7 @@
 7-3. [GitHub Pages에 리액트 페이지 배포](https://velog.io/@bami/React-GitHub-Pages%EC%97%90-%EB%B0%B0%ED%8F%AC%ED%95%98%EA%B8%B0) <br/>
 7-4. [Storybook](https://velog.io/@bami/React-Storybook-mp1dzgtu) <br/>
 7-5. [모달창](https://velog.io/@bami/React-React%EC%97%90%EC%84%9C-%EB%AA%A8%EB%8B%AC%EC%B0%BD-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0) <br/>
+7-6. [MUI](https://velog.io/@bami/MUI-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0) <br/>
 
 ### 번외. 클론 코딩 및 프로젝트들
 1. [ToDo-List](https://bamtory29.tistory.com/category/Project/%5B%ED%81%B4%EB%A1%A0%20%EC%BD%94%EB%94%A9%5D%20TODO%20LIST) <br/>
